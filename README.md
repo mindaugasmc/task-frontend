@@ -1,4 +1,4 @@
-Link to Hosted DEMO: https://mindaugasmc.github.io/task-frontend/
+## Link to Hosted DEMO: https://mindaugasmc.github.io/task-frontend/
 
 # Frontend Developer Task
 
