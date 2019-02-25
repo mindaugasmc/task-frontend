@@ -6,10 +6,11 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <link rel="icon" type="image/png" href="https://www.hostinger.lt/assets/images/favicon-97d9192479.ico">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/counter.js"></script>
+        <title>Hostinger FrontEnd task</title>
     </head>
 
     <body>
-        <title>Hostinger FrontEnd task</title>
         <div class="background-image"></div>
         <div class="centered">
             <div class="wrapper">
@@ -38,23 +39,24 @@
                         <div class="arrow-left"></div>
                         <ul class="counter">
                             <li>
-                                <span class="counter-value">00</span>
+                                <span id="days" class="counter-value"></span>
                                 <span class="counter-unit">Days</span>
                             </li>
                             <li>
-                                <span class="counter-value">16</span>
+                                <span id="hours" class="counter-value"></span>
                                 <span class="counter-unit">Hours</span>
                             </li>
                             <li>
-                                <span class="counter-value">18</span>
+                                <span id="minutes" class="counter-value"></span>
                                 <span class="counter-unit">Minutes</span>
                             </li>
                             <li>
-                                <span class="counter-value">29</span>
+                                <span id="seconds" class="counter-value"></span>
                                 <span class="counter-unit">Seconds</span>
                             </li>
                         </ul>
                         <div class="arrow-right"></div>
+                        <p id="counter"></p>
                     </div>
                     <button class="s-button">Get started now</button>
                 </section>
