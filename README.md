@@ -1,3 +1,5 @@
+## Link to Hosted DEMO: https://mindaugasmc.github.io/task-frontend/
+
 # Frontend Developer Task
 
 ## Few simple steps
